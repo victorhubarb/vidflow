@@ -1,17 +1,3 @@
-1. instalação do node.js globalmente
-
-    https://nodejs.org/en/download/
-
-2. Instalação do JSON Server
-
-    npm install -g json-server
-
-3. Inicialização do JSON Server
-
-    json-server --watch backend/videos.json
-
-OBS: backend/videos.json é a pasta já no projeto base fornecido em que está localizado o arquivo JSON da API de vídeos e que foi preenchido pelo seguinte código:
-
 {
     "videos": [
       {
@@ -120,5 +106,3 @@ OBS: backend/videos.json é a pasta já no projeto base fornecido em que está l
       }
     ]
   }
-
-Tudo isso para a criação de uma API fake pra utilização no projeto com o uso do JSON.
