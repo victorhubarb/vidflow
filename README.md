@@ -12,14 +12,13 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-
+Website for video sharing, similar to the famous current YouTube. It includes navigation tabs with subscriptions, history, search bar, and other menu options for navigation. The main content contains videos and buttons for video filtering.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: 
-- `Feature 2`: 
-- `Feature 3`: 
-- `Feature 4`: 
+- `Feature 1`: Implementation of filters, such as the search bar, and we filter the application with category buttons, such as mobile, front-end, and data science.
+- `Feature 2`: To fetch videos for the application, we consume an API using promise methods.
+- `Feature 3`: Responsive project, developed for various screen sizes as well.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
@@ -68,6 +67,7 @@ Follow the steps below to make use of the fake API or mock API created for use o
 ![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)
+![Static Badge](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Developers
