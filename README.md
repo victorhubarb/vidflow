@@ -38,11 +38,13 @@ Have the code on your computer:
 Follow the steps below to make use of the fake API or mock API created for use only in this project:
 1. Install Node.js:
 	- Before we begin, it's important to have Node.js installed on your system. Click [here](https://nodejs.org/en/download/) to be redirected to the website for installation.
+
 2. JSON Server Installation:
 	- Open your terminal or command prompt
 	- To install JSON Server globally, you just need to type the following command and press "Enter"
 	- `npm install -g json-server`
 	- This will install JSON Server globally on your system, and you'll be ready to use it in any project.
+
 3. Allowing script execution policy (Windows only). If you're using Windows, you need to follow these steps to run JSON Server:
 	- Open PowerShell as an administrator. To do this, search for "PowerShell" in the Start menu, right-click on "Windows PowerShell" (or "Windows Terminal"), and select "Run as administrator".
 	- The execution policy may be "Restricted," which is the default setting that prevents script execution. In PowerShell, you can check the current execution policy with the following command:
@@ -53,6 +55,7 @@ Follow the steps below to make use of the fake API or mock API created for use o
 	- After completing the task, it's a good practice to revert the script execution policy to the original value to ensure system security. You can do this by setting the execution policy back to "Restricted" with the following command:
 	- `Set-ExecutionPolicy Restricted`
 	- However, if you want to use JSON Server again, you'll need to change the execution policy to "RemoteSigned" once more.
+
 4. Starting JSON Server:
 	- Open the integrated terminal of VSCode or your preferred IDE, so the terminal will automatically open within the project folder. Run the following command to start JSON Server and use it with the videos.json file:
 	- `json-server --watch backend/videos.json`
