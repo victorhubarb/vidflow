@@ -19,6 +19,8 @@ Website for video sharing, similar to the famous current YouTube. It includes na
 - `Feature 1`: Implementation of filters, such as the search bar, and we filter the application with category buttons, such as mobile, front-end, and data science.
 - `Feature 2`: To fetch videos for the application, we consume an API using promise methods.
 - `Feature 3`: Responsive project, developed for various screen sizes as well.
+- `Feature 4`: Implementation of a button in the top right corner for switching to night mode.
+- `Feature 5`: Project developed using WAI-ARIA to enhance accessibility. Tested using keyboard navigation as well as a third-party screen reader application, specifically NVDA.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
