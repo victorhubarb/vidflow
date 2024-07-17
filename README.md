@@ -54,19 +54,26 @@ To simulate a backend for development purposes using JSON Server:
   ```
 
 - **For Windows Users**:
-`-` You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
+You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
   ```bash
   Set-ExecutionPolicy RemoteSigned
   ```
 
-`-` To revert the policy after usage:
+To revert the policy after usage:
   ```bash
   Set-ExecutionPolicy Restricted
   ```
 
 ### Running the Project
-
-
+- **Starting JSON Server**:
+  ```bash
+  # Navigate to the project directory where the `videos.json` is located
+json-server --watch backend/videos.json
+This will start JSON Server, which hosts a fake REST API from your videos.json file.
+- **Open the Project**:
+  Open your project in the IDE and run your local server or simply open the index.html file in a browser to see the project in action.
+- **Note on Security**:
+  Reverting the PowerShell execution policy to its default setting (Restricted) after using JSON Server is recommended to ensure system security.
 
 ## Technologies Used
 ![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
