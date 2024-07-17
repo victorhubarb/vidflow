@@ -12,56 +12,55 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-Website for video sharing, similar to the famous current YouTube. It includes navigation tabs with subscriptions, history, search bar, and other menu options for navigation. The main content contains videos and buttons for video filtering.
+VidFlow is a dynamic video platform developed using HTML, CSS, and JavaScript, designed to offer a user experience similar to popular video streaming services like YouTube. The platform features a responsive design that supports a light and dark mode switch and incorporates an intuitive interface for seamless navigation and video discovery. VidFlow leverages a fake API stored as a JSON file in the project's directory to dynamically display video content, making it an excellent tool for showcasing video-based projects or for developers looking to understand video platform functionalities.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Live Application
+[VidFlow Demonstration]()
  
-## Features and Application Demonstration
-- `Feature 1`: Implementation of filters, such as the search bar, and we filter the application with category buttons, such as mobile, front-end, and data science.
-- `Feature 2`: To fetch videos for the application, we consume an API using promise methods.
-- `Feature 3`: Responsive project, developed for various screen sizes as well.
-- `Feature 4`: Implementation of a button in the top right corner for switching to night mode.
-- `Feature 5`: Project developed using WAI-ARIA to enhance accessibility. Tested using keyboard navigation as well as a third-party screen reader application, specifically NVDA.
+## Features
+- **Dynamic Video Display**: Videos are dynamically loaded and displayed using data from a local JSON file, simulating a real API response.
+- **Responsive Search Functionality**: The platform includes a search bar that filters videos based on user input, showcasing only relevant results instantly.
+- **Category Filtering**: Users can filter videos by categories, which reorganizes the video display to match the selected category, enhancing content discoverability.
+- **Light/Dark Mode Toggle**: Features a mode toggle switch that allows users to switch between light and dark themes, catering to different viewing preferences and conditions.
+- **Interactive Sidebar Menu**: Includes a navigational sidebar with expandable sections for different content categories like Home, Explore, and Subscriptions, improving site navigation and user experience.
+- **Video Thumbnails and Metadata**: Displays essential information such as video title, views, and channel name alongside each video thumbnail, providing a snapshot of the video content at a glance.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
-- Have your preferred IDE installed on your computer.
 
-Have the code on your computer:
-- Access the project source code [here](https://github.com/victorhubarb/vidflow) or download the project [here](https://github.com/victorhubarb/jogo-numero-secreto/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
+### Prerequisites
+- **Integrated Development Environment (IDE)**: Ensure you have your preferred IDE installed on your computer, such as Visual Studio Code.
+- **Node.js**: Essential for running certain backend simulations like JSON Server. [Install Node.js here](https://nodejs.org/en/download/).
 
-- Clone repository with the following steps:
-1. Open the terminal
-2. git clone [https://github.com/victorhubarb/vidflow.git](https://github.com/victorhubarb/vidflow.git)
-3. Press ENTER to create your clone
-4. Have your prefered IDE installed in your computer.
-
-Follow the steps below to make use of the fake API or mock API created for use only in this project:
-1. Install Node.js:
-	- Before we begin, it's important to have Node.js installed on your system. Click [here](https://nodejs.org/en/download/) to be redirected to the website for installation.
-
-2. JSON Server Installation:
-	- Open your terminal or command prompt
-	- To install JSON Server globally, you just need to type the following command and press "Enter"
-	- `npm install -g json-server`
-	- This will install JSON Server globally on your system, and you'll be ready to use it in any project.
-
-3. Allowing script execution policy (Windows only). If you're using Windows, you need to follow these steps to run JSON Server:
-	- Open PowerShell as an administrator. To do this, search for "PowerShell" in the Start menu, right-click on "Windows PowerShell" (or "Windows Terminal"), and select "Run as administrator".
-	- The execution policy may be "Restricted," which is the default setting that prevents script execution. In PowerShell, you can check the current execution policy with the following command:
-	- `Get-ExecutionPolicy`
-	- Run the following command to allow script execution on your computer:
-	- `Set-ExecutionPolicy RemoteSigned`
-	- PowerShell may ask for confirmation to perform the operation. Press "S" (Yes) or "Y" (Yes) depending on the language of your terminal and press Enter to confirm.
-	- After completing the task, it's a good practice to revert the script execution policy to the original value to ensure system security. You can do this by setting the execution policy back to "Restricted" with the following command:
-	- `Set-ExecutionPolicy Restricted`
-	- However, if you want to use JSON Server again, you'll need to change the execution policy to "RemoteSigned" once more.
-
-4. Starting JSON Server:
-	- Open the integrated terminal of VSCode or your preferred IDE, so the terminal will automatically open within the project folder. Run the following command to start JSON Server and use it with the videos.json file:
-	- `json-server --watch backend/videos.json`
-	- JSON Server will be started and will begin serving a fake REST API based on the data from the videos.json file, allowing us to consume the data for VidFlow.
+### Obtaining the Code
+You can access and set up the project source code in a few different ways:
+- **Direct Download**:
+  - [Download the project ZIP file here](https://github.com/victorhubarb/vidflow/archive/refs/heads/main.zip), unzip it on your computer and open the project in your IDE.
+- **Clone via Git**:
+  ```bash
+  # Open your terminal
+  git clone https://github.com/victorhubarb/vidflow.git
+  
+  # Navigate to the project directory
+  cd vidflow
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Setting up JSON Server
+To simulate a backend for development purposes using JSON Server:
+- **Install JSON Server**:
+  ```bash
+  npm install -g json-server
+- **For Windows Users**:
+You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
+  ```bash
+  Set-ExecutionPolicy RemoteSigned
+To revert the policy after usage:
+  ```bash
+  Set-ExecutionPolicy Restricted
+  
+### Running the Project:
+
 
 ## Technologies Used
 ![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
