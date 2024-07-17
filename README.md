@@ -68,7 +68,8 @@ To revert the policy after usage:
 - **Starting JSON Server**:
   ```bash
   # Navigate to the project directory where the `videos.json` is located
-json-server --watch backend/videos.json
+  json-server --watch backend/videos.json
+  ```
 This will start JSON Server, which hosts a fake REST API from your videos.json file.
 - **Open the Project**:
   Open your project in the IDE and run your local server or simply open the index.html file in a browser to see the project in action.
