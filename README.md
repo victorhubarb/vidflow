@@ -54,12 +54,12 @@ To simulate a backend for development purposes using JSON Server:
   ```
 
 - **For Windows Users**:
-- You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
+`-` You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
   ```bash
   Set-ExecutionPolicy RemoteSigned
   ```
 
-- To revert the policy after usage:
+`-` To revert the policy after usage:
   ```bash
   Set-ExecutionPolicy Restricted
   ```
