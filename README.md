@@ -50,7 +50,7 @@ You can access and set up the project source code in a few different ways:
 To simulate a backend for development purposes using JSON Server:
 - **Install JSON Server**:
   ````bash
-npm install -g json-server
+  npm install -g json-server
 
 - **For Windows Users**:
 You may need to adjust the script execution policy to use JSON Server. Open 		PowerShell as an administrator and run:
