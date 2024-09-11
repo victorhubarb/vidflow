@@ -5,7 +5,7 @@
 **VidFlow** is a video-sharing platform, similar to YouTube. Built using HTML, CSS, and JavaScript, the platform offers a fluid user experience, with features such as dynamic video display, search, category filters, and switching between light and dark modes.
 
 ## Live Application
-[VidFlow Demonstration](https://space-app-ten-mocha.vercel.app)
+[VidFlow Demonstration](https://vidflow-five.vercel.app)
 
 ## Table of Contents
 - [Installation](#installation)
